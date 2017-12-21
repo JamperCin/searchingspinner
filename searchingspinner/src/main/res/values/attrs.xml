@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SearchingSpinner">
+        <attr name="android:entries" />
+        <attr name="title" format="string"></attr>
+        <attr name="itemOnClickDismissDialog" format="boolean"></attr>
+        <attr name="localEntriesAddable" format="boolean"></attr>
+        <attr name="acceptLocalEntries" format="boolean"></attr>
+    </declare-styleable>
+</resources>
