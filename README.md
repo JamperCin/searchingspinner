@@ -16,7 +16,7 @@ Also have the functionality of adding user's own entered values to the list alre
   **Step 2: Add the dependency to your dependencies in the build.gradle (Module:App level)**
 
 	dependencies {
-	        compile 'com.github.JamperCin:searchspinner:1.0.7'
+	        compile 'com.github.JamperCin:searchspinner:1.0.8'
 	}
   
   
