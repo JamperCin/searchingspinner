@@ -1,6 +1,9 @@
 [![](https://jitpack.io/v/JamperCin/searchingspinner.svg)](https://jitpack.io/#JamperCin/searchingspinner)
 # searchingspinner
-add search functionality to a spinner and even allow/disallow users to enter their own values to the spinner.
+Spinner with searchable items.
+
+searchingspinner is a dialog spinner with the search feature which allows users to search the items loaded in the spinner.
+Adding search functionality to a spinner and even allow/disallow users to enter their own values to the spinner.
 Also have the functionality of adding user's own entered values to the list already loaded in the spinner
 
 
