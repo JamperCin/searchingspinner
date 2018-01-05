@@ -6,6 +6,7 @@ searchingspinner is a dialog spinner with the search feature which allows users 
 Adding search functionality to a spinner and even allow/disallow users to enter their own values to the spinner.
 Also have the functionality of adding user's own entered values to the list already loaded in the spinner
 
+![alt text](https://github.com/JamperCin/searchingspinner/blob/master/spinnerSearch.png)
 
 **Step 1: Add this to your root build.gradle(Project level) at the end of repositories:**
 
