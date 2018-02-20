@@ -1,12 +1,7 @@
 [![](https://jitpack.io/v/JamperCin/searchingspinner.svg)](https://jitpack.io/#JamperCin/searchingspinner)
-# searchingspinner
-Spinner with searchable items.
-
-searchingspinner is a dialog spinner with the search feature which allows users to search the items loaded in the spinner.
-Adding search functionality to a spinner and even allow/disallow users to enter their own values to the spinner.
-Also have the functionality of adding user's own entered values to the list already loaded in the spinner
-
-![alt text](https://github.com/JamperCin/searchingspinner/blob/master/spinnerSearch.png)
+# searchspinner
+add search functionality to a spinner and even allow/disallow users to enter their own values to the spinner.
+ Also have the functionality of adding user's own entered values to the list already loaded in the spinner
 
 **Step 1: Add this to your root build.gradle(Project level) at the end of repositories:**
 
@@ -20,7 +15,7 @@ Also have the functionality of adding user's own entered values to the list alre
   **Step 2: Add the dependency to your dependencies in the build.gradle (Module:App level)**
 
 	dependencies {
-	       compile 'com.github.JamperCin:searchingspinner:1.0.9'
+	        compile 'com.github.JamperCin:searchspinner:1.0.9'
 	}
   
   

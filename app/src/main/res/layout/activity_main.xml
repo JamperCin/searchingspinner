@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -21,10 +20,15 @@
 
     <com.jamper.searchspinner.SearchingSpinner
         android:id="@+id/me"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
         android:entries="@array/CountryCodes"
         android:textSize="16sp"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"/>
+        app:title="Search on List"
+        app:dialogInputType="textCapSentences"
+        app:acceptLocalEntries="false"
+        app:itemOnClickDismissDialog="false"
+        app:localEntriesAddable="false" />
 
 
 </android.support.constraint.ConstraintLayout>

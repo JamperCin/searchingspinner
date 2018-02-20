@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.AsyncTask;
 import android.os.Build;
+import android.text.InputType;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
@@ -20,6 +21,7 @@ public class SearchingSpinner extends android.support.v7.widget.AppCompatEditTex
     private int defStyleAttr;
     private OnItemSelected onItemSelected;
     private int itemPosition;
+    private InputType inputType;
 
     /**
      * Retrieve the Attributes
@@ -29,6 +31,7 @@ public class SearchingSpinner extends android.support.v7.widget.AppCompatEditTex
     private boolean itemOnClickDismissDialog;
     private boolean localEntriesAddable;
     private boolean acceptLocalEntries;
+    private int dialogInputType;
 
 
     public SearchingSpinner(Context context) {
@@ -88,6 +91,7 @@ public class SearchingSpinner extends android.support.v7.widget.AppCompatEditTex
     private void customiseView() {
         arrayList = new ArrayList<>();
         itemPosition = -1;
+        this.dialogInputType = InputType.TYPE_CLASS_TEXT;
 
         this.setFocusable(false);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
@@ -117,8 +121,10 @@ public class SearchingSpinner extends android.support.v7.widget.AppCompatEditTex
             itemOnClickDismissDialog = a.getBoolean(R.styleable.SearchingSpinner_itemOnClickDismissDialog,
                     true); //Get the boolean value to indicate whether to dismiss the Dialog or not
             // when user selects item from the list
+            dialogInputType = a.getInteger(R.styleable.SearchingSpinner_dialogInputType,InputType.TYPE_CLASS_TEXT);
             addEntries(null);
             setDefaultItem(null);
+            setDialogInputType(dialogInputType);
 
         } finally {
             a.recycle();
@@ -170,6 +176,11 @@ public class SearchingSpinner extends android.support.v7.widget.AppCompatEditTex
     }
 
 
+    public void setDialogInputType(int inputType){
+      this.dialogInputType = inputType;
+    }
+
+
     /**
      * Show the Dialog when user clicks on the customised Spinner
      **/
@@ -180,6 +191,7 @@ public class SearchingSpinner extends android.support.v7.widget.AppCompatEditTex
         sp.setItemOnClickDismissDialog(itemOnClickDismissDialog);
         sp.setAcceptLocalEntries(acceptLocalEntries);
         sp.setLocalEntriesAddable(localEntriesAddable);
+        sp.setInputType(dialogInputType);
         sp.onItemSelectedListener(new SearchSpinner.onItemOnClick() {
             @Override
             public void getItem(String item, int itemPosition) {

@@ -18,9 +18,10 @@ public class SearchActivity extends AppCompatActivity {
         spinner = findViewById(R.id.me);
         // spinner.addEntries(getList());
         spinner.setTitle("Search here");
-        spinner.setAcceptLocalEntries(true);
-        spinner.setLocalEntriesAddable(true);
-        spinner.setItemOnClickDismissDialog(true);
+      //  spinner.setDialogInputType(InputType.TYPE_NUMBER_VARIATION_PASSWORD);
+       // spinner.setAcceptLocalEntries(true);
+       // spinner.setLocalEntriesAddable(true);
+       // spinner.setItemOnClickDismissDialog(true);
 
         spinner.setOnItemSelectedListener(new OnItemSelected() {
             @Override

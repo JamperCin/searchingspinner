@@ -34,6 +34,7 @@ public class SearchSpinner {
     private boolean itemOnClickDismissDialog;
     private boolean localEntriesAddable;
     private boolean acceptLocalEntries;
+    private int inputType;
 
     //Check if item is selected
     private boolean isItemSelected = false;
@@ -85,18 +86,25 @@ public class SearchSpinner {
     }
 
 
-    public void setAcceptLocalEntries(boolean acceptLocalEntries) {
+     void setAcceptLocalEntries(boolean acceptLocalEntries) {
         this.acceptLocalEntries = acceptLocalEntries;
     }
 
-    public void setLocalEntriesAddable(boolean localEntriesAddable) {
+     void setLocalEntriesAddable(boolean localEntriesAddable) {
         this.localEntriesAddable = localEntriesAddable;
     }
+
+
+    /**Set the IputType of the Dialog SearchPanel**/
+     void setInputType(int inputType){
+         this.inputType = inputType;
+    }
+
 
     /**
      * Set the spinner array items
      **/
-    public void setSpinnerList(final ArrayList<String> spinnerList) {
+    void setSpinnerList(final ArrayList<String> spinnerList) {
         try {
             if (spinnerList != null)
                 this.spinnerList.addAll(spinnerList);
@@ -115,7 +123,7 @@ public class SearchSpinner {
     }
 
 
-    public void setItemOnClickDismissDialog(boolean status) {
+     void setItemOnClickDismissDialog(boolean status) {
         this.itemOnClickDismissDialog = status;
     }
 
@@ -280,6 +288,7 @@ public class SearchSpinner {
 
         editText = new EditText(mContext);
         editText.setHint("Search...");
+        editText.setInputType(this.inputType);
         //  editText.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.ic_search, 0);
         editText.setBackgroundColor(mContext.getResources().getColor(android.R.color.transparent));
         editText.setTextSize((float) 15);
