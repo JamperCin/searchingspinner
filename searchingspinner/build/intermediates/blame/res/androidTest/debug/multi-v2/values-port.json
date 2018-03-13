@@ -1,6 +1,28 @@
 {
     "logs": [
         {
+            "outputFile": "/Users/nforticsmobileteam/Documents/GITHUB/searchingspinner/searchingspinner/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/nforticsmobileteam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.1.0.aar/eb094fedcdb9399c0e8869c521b76f72/res/values-port/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "291",
+                        "endColumns": "55",
+                        "endOffsets": "342"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/nforticsmobileteam/Documents/AndroidProjects/SearchSpinnerLib/searchingspinner/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {

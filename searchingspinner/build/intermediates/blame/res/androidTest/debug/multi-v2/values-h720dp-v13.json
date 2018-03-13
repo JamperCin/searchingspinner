@@ -1,6 +1,28 @@
 {
     "logs": [
         {
+            "outputFile": "/Users/nforticsmobileteam/Documents/GITHUB/searchingspinner/searchingspinner/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/nforticsmobileteam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.1.0.aar/eb094fedcdb9399c0e8869c521b76f72/res/values-h720dp-v13/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "294",
+                        "endColumns": "66",
+                        "endOffsets": "356"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/nforticsmobileteam/Documents/AndroidProjects/SearchSpinnerLib/searchingspinner/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
