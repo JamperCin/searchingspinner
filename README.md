@@ -15,7 +15,7 @@ add search functionality to a spinner and even allow/disallow users to enter the
   **Step 2: Add the dependency to your dependencies in the build.gradle (Module:App level)**
 
 	dependencies {
-	        compile 'com.github.JamperCin:searchspinner:2.0.1'
+	        compile 'com.github.JamperCin:searchingspinner:2.0.1'
 	}
   
   
