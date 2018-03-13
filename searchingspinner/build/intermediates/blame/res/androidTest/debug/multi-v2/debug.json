@@ -978,21 +978,6 @@
             ]
         },
         {
-            "outputFile": "/Users/nforticsmobileteam/Documents/AndroidProjects/SearchSpinnerLib/searchingspinner/build/intermediates/res/merged/androidTest/debug/values-land_values-land.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/nforticsmobileteam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/fccc82a7598fb0fd1e698fa0d023c359/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/nforticsmobileteam/Documents/AndroidProjects/SearchSpinnerLib/searchingspinner/build/intermediates/res/merged/androidTest/debug/values-bn_values-bn.arsc.flat",
             "map": [
                 {
@@ -1003,6 +988,21 @@
                         "startOffsets": "55,164,272,395,507,613,707,812,941,1019,1097,1184,1294,1410,1517,1627,1733,1846,1974,2079,2169",
                         "endColumns": "108,107,122,111,105,93,104,128,77,77,86,109,115,106,109,105,112,127,104,89,100",
                         "endOffsets": "159,267,390,502,608,702,807,936,1014,1092,1179,1289,1405,1512,1622,1728,1841,1969,2074,2164,2265"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/nforticsmobileteam/Documents/AndroidProjects/SearchSpinnerLib/searchingspinner/build/intermediates/res/merged/androidTest/debug/values-land_values-land.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/nforticsmobileteam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/fccc82a7598fb0fd1e698fa0d023c359/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
                     }
                 }
             ]

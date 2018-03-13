@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/searchingspinner.iml" filepath="$PROJECT_DIR$/searchingspinner.iml" />
       <module fileurl="file://$PROJECT_DIR$/searchingspinner/searchingspinner-searchingspinner.iml" filepath="$PROJECT_DIR$/searchingspinner/searchingspinner-searchingspinner.iml" />
-      <module fileurl="file://$PROJECT_DIR$/searchingspinner/searchingspinner-searchingspinner.iml" filepath="$PROJECT_DIR$/searchingspinner/searchingspinner-searchingspinner.iml" />
     </modules>
   </component>
 </project>
