@@ -15,13 +15,13 @@ add search functionality to a spinner and even allow/disallow users to enter the
   **Step 2: Add the dependency to your dependencies in the build.gradle (Module:App level)**
 
 	dependencies {
-	        compile 'com.github.JamperCin:searchspinner:1.0.9'
+	        compile 'com.github.JamperCin:searchspinner:2.0.1'
 	}
   
   
   **Step 3: Just include in it in your xml as a normal view like:**
   ```
-  <com.jamper.searchspinner.SearchingSpinner
+ <com.jamper.searchingspinner.UI.SearchingSpinner
         android:id="@+id/me"
         android:entries="@array/CountryCodes"
         android:textSize="16sp"

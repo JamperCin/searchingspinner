@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\ANDROID_PROJECTS\\SearchSpinner\\searchingspinner\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "/Users/nforticsmobileteam/Documents/AndroidProjects/SearchSpinnerLib/searchingspinner/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jampe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f049aced5350955d478d698ebaec48e0\\res\\values-land\\values-land.xml",
+                    "source": "/Users/nforticsmobileteam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/fccc82a7598fb0fd1e698fa0d023c359/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
